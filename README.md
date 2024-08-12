@@ -1,14 +1,3 @@
-# InstaCart-
-InstaCart Market Basket Analysis
-
-
-
-
-class CustomStackingClassifier:
-    def __init__(self, estimators, random_state, params, nround, 
-                 version, loop=3,
-                 valid_size=0.05, stratify=True, verbose=1,
-                 early_stopping=60, use_probas=True):
         self.clf = estimators
         self.mod=cpickle
         self.loop = loop
